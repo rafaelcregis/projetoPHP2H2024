@@ -3,16 +3,14 @@
 	$nome = 'Rafael';
 	$peso = 80;
 	$altura = 1.70;
-	$altura2 = $altura * $altura;
-	
-	function imc ($peso, $altura,){
-		$imc = $peso ($altura * $altura);
+		
+	function imc ($peso, $altura){
+		$imc = $peso / ($altura * $altura);
 		return $imc;
 	}
 
-	resp $imc ($peso,$altura);
+	$resp = imc ($peso,$altura);
 	
-
 
 	printf ("Olá $nome, seu peso $peso Kg sua altura $altura seu imc %2f", $resp);
 
