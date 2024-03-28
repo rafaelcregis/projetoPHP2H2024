@@ -1,7 +1,7 @@
 <?php 
 	
 	$nome = 'Rafael';
-	$peso = 80;
+	$peso = 70;
 	$altura = 1.70;
 		
 	function imc ($peso, $altura){
